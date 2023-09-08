@@ -1,0 +1,90 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1939 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"8 C:\Users\Usuario\OneDrive\Escritorio\Taller_micro\punto_5.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"7 C:\Users\Usuario\OneDrive\Escritorio\Taller_micro\punto_5.X\punt5.c
+[v _init_1 init_1 `(v  1 e 1 0 ]
+"26
+[v _logica_punto5 logica_punto5 `(v  1 e 1 0 ]
+[s S76 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"508 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8\pic\include\proc\pic16f1939.h
+[u S85 . 1 `S76 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES85  1 e 1 @13 ]
+[s S31 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1392
+[u S40 . 1 `S31 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES40  1 e 1 @141 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"2481
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S52 . 1 `uc 1 ANSB0 1 0 :1:0 
+`uc 1 ANSB1 1 0 :1:1 
+`uc 1 ANSB2 1 0 :1:2 
+`uc 1 ANSB3 1 0 :1:3 
+`uc 1 ANSB4 1 0 :1:4 
+`uc 1 ANSB5 1 0 :1:5 
+]
+"3404
+[s S59 . 1 `uc 1 ANSELB 1 0 :6:0 
+]
+[u S61 . 1 `S52 1 . 1 0 `S59 1 . 1 0 ]
+[v _ANSELBbits ANSELBbits `VES61  1 e 1 @397 ]
+"8 C:\Users\Usuario\OneDrive\Escritorio\Taller_micro\punto_5.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"15
+} 0
+"26 C:\Users\Usuario\OneDrive\Escritorio\Taller_micro\punto_5.X\punt5.c
+[v _logica_punto5 logica_punto5 `(v  1 e 1 0 ]
+{
+"85
+[v logica_punto5@i_136 i `uc  1 a 1 9 ]
+"78
+[v logica_punto5@i_135 i `uc  1 a 1 8 ]
+"71
+[v logica_punto5@i_134 i `uc  1 a 1 7 ]
+"64
+[v logica_punto5@i_133 i `c  1 a 1 6 ]
+"56
+[v logica_punto5@i_132 i `uc  1 a 1 5 ]
+"48
+[v logica_punto5@i_131 i `uc  1 a 1 4 ]
+"40
+[v logica_punto5@i_130 i `uc  1 a 1 3 ]
+"32
+[v logica_punto5@i i `c  1 a 1 2 ]
+"102
+} 0
+"7
+[v _init_1 init_1 `(v  1 e 1 0 ]
+{
+"23
+} 0

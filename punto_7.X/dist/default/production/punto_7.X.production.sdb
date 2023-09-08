@@ -1,0 +1,129 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1939 ]
+[d frameptr 6 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"5 C:\Users\Usuario\OneDrive\Escritorio\Taller_micro\punto_7.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"11 C:\Users\Usuario\OneDrive\Escritorio\Taller_micro\punto_7.X\seg7.c
+[v _display_init display_init `(v  1 e 1 0 ]
+"22
+[v _display_cc display_cc `(v  1 e 1 0 ]
+"91
+[v _punto_7 punto_7 `(v  1 e 1 0 ]
+[s S87 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"508 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241/xc8\pic\include\proc\pic16f1939.h
+[u S96 . 1 `S87 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES96  1 e 1 @13 ]
+[s S36 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1392
+[u S45 . 1 `S36 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES45  1 e 1 @141 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @143 ]
+"1957
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"2015
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2481
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2543
+[v _LATD LATD `VEuc  1 e 1 @271 ]
+"2923
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+[s S57 . 1 `uc 1 ANSB0 1 0 :1:0 
+`uc 1 ANSB1 1 0 :1:1 
+`uc 1 ANSB2 1 0 :1:2 
+`uc 1 ANSB3 1 0 :1:3 
+`uc 1 ANSB4 1 0 :1:4 
+`uc 1 ANSB5 1 0 :1:5 
+]
+"3404
+[s S64 . 1 `uc 1 ANSELB 1 0 :6:0 
+]
+[u S66 . 1 `S57 1 . 1 0 `S64 1 . 1 0 ]
+[v _ANSELBbits ANSELBbits `VES66  1 e 1 @397 ]
+"7 C:\Users\Usuario\OneDrive\Escritorio\Taller_micro\punto_7.X\seg7.c
+[v _decoCC1 decoCC1 `[10]uc  1 e 10 0 ]
+"8
+[v _numero numero `i  1 e 2 0 ]
+[v _decena decena `i  1 e 2 0 ]
+[v _unidad unidad `i  1 e 2 0 ]
+"9
+[v _ultima_accion ultima_accion `uc  1 e 1 0 ]
+"5 C:\Users\Usuario\OneDrive\Escritorio\Taller_micro\punto_7.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"16
+} 0
+"91 C:\Users\Usuario\OneDrive\Escritorio\Taller_micro\punto_7.X\seg7.c
+[v _punto_7 punto_7 `(v  1 e 1 0 ]
+{
+"161
+} 0
+"11
+[v _display_init display_init `(v  1 e 1 0 ]
+{
+"20
+} 0
+"22
+[v _display_cc display_cc `(v  1 e 1 0 ]
+{
+[v display_cc@dig1 dig1 `i  1 p 2 0 ]
+[v display_cc@PORT PORT `*.39uc  1 p 2 2 ]
+"55
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
